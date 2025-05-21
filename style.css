@@ -27,6 +27,9 @@
   .container h1 {
     size: 10px;
   }
+  .broken {
+    margin-top: 12px;
+  }
   
   .foto {
     width: 100%;
@@ -38,7 +41,7 @@
   
   .contador {
     font-size: 1.5em;
-    margin-top: 20px;
+    margin-top: 8px;
     font-weight: bold;
     color: #3b3a39;
   }
