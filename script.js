@@ -14,7 +14,6 @@ function atualizarContador() {
   let minutos = agora.getMinutes() - inicio.getMinutes();
   let segundos = agora.getSeconds() - inicio.getSeconds();
 
-  // Ajustes para valores negativos
   if (segundos < 0) {
     segundos += 60;
     minutos--;
@@ -41,7 +40,6 @@ function atualizarContador() {
     anos--;
   }
 
-  // Atualiza os valores no HTML com dois dígitos
   document.getElementById('anos').textContent = formatarNumero(anos);
   document.getElementById('meses').textContent = formatarNumero(meses);
   document.getElementById('dias').textContent = formatarNumero(dias);
